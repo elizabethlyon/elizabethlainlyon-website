@@ -15,7 +15,6 @@ function Tile(props) {
     return (
         <div className="trait-box">
             <div className="icon-img">
-                {console.log('halp', props)}
                 <img src={images[props.index]} alt={props.alt} className="traits-image-icons" />
             </div>
             <h2 className="trait-name">{props.traitName}</h2>

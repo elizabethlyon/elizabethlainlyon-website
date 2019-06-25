@@ -17,7 +17,7 @@ export default class App extends Component {
             return hello;
         };
         return (
-            <div className="page-wrapper">
+            <div className="page-wrapper" role="main">
                 {/* {console.warn(functionality())} */}
                 <TopNav />
                 <Header />
