@@ -7,7 +7,7 @@ export default function Footer() {
         return year.getFullYear();
     };
     return (
-        <footer className="site-footer">
+        <footer className="site-footer" role="contentinfo">
             <p className="ft-copyright">
                 Copyright &copy; {getYear()} Elizabeth L Lyon
             </p>

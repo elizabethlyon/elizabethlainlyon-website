@@ -1,9 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 export default function Header() {
     return (
-        <header className="header-wrapper">
+        <header className="header-wrapper" role="banner">
             <div className="banner">
                 <div className="title">
                     <h1>
@@ -13,5 +12,5 @@ export default function Header() {
                 </div>
             </div>
         </header>
-    )
+    );
 }

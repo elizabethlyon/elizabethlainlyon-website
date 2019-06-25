@@ -4,7 +4,7 @@ import React from 'react';
 export default function TopNav() {
     return (
         <div>
-            <nav className="topnav">
+            <nav className="topnav" role="navigation">
                 <ul>
                     <li>
                         <a href="/#" title="home">
